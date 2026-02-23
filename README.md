@@ -1,50 +1,83 @@
-# Welcome to your Expo app 👋
+## Momentary
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Momentary is an experimental mobile app built with **React Native (Expo)** for capturing short, honest thoughts.
 
-## Get started
+It’s designed for moments when you just need to open up, type something out, and let it go. Notes automatically delete after a short, set amount of time. Nothing is stored on servers. Everything stays locally on your device.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## What It Does
 
-2. Start the app
+* Write short thoughts instantly
+* Notes automatically expire after a fixed time
+* All data stays on the user’s phone
+* No accounts
+* No cloud sync
+* No tracking
 
-   ```bash
-   npx expo start
-   ```
+Momentary is private by design. Once a thought fades, it’s gone.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* React Native
+* Expo
+* File-based routing (Expo Router)
+* Local device storage only
 
-## Get a fresh project
+---
 
-When you're ready, run:
+# Welcome to Momentary 👋
+
+This is an **Expo** project created with `create-expo-app`.
+
+---
+
+## Get Started
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Start the app
+
+```bash
+npx expo start
+```
+
+In the terminal output, you’ll see options to open the app in:
+
+* Development build
+* Android emulator
+* iOS simulator
+* Expo Go (quickest way to test on your phone)
+
+---
+
+## Reset the Project
+
+If you want a clean starting point:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This moves the starter files into **app-example** and creates a blank **app** directory so you can rebuild from scratch.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## Philosophy
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Momentary is built around one idea:
 
-## Join the community
+Some thoughts are meant to be felt — not archived.
 
-Join our community of developers creating universal apps.
+No social features.
+No timelines.
+No pressure.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Just write.
+And let it disappear.
